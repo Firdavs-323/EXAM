@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #e3e3e3;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.teams {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 30px;
+}
+
+.team {
+    background: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    width: 200px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.team img {
+    width: 80px;
+    margin-bottom: 10px;
+}
+
+.section {
+    background: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 8px;
+    border-bottom: 1px solid #ccc;
+    text-align: left;
+}
+
+.subheader {
+    background: #f0f0f0;
+    font-weight: bold;
+    text-align: center;
+}
+
+.video iframe {
+    width: 100%;
+    height: 300px;
+    background: #000;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input[type="text"],
+textarea {
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #aaa;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+button {
+    background: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 150px;
+    text-align: center;
+}
+
+button:hover {
+    background: #45a049;
+    text-align: center;
+}
+
+label {
+    margin: 5px 0;
+    text-align: center;
+}
